@@ -1,0 +1,44 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    width: 100%;
+    font-size: 50px;
+}
+
+.botao .status {
+    font-size: 20px;
+}
+
+.objetos {
+    font-size: 30px;
+}
+
+.rodape {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: purple;
+    color: red;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+
+
+@keyframes example {
+    from {
+        box-shadow: 3px 3px 38px purple;
+    }
+
+    to {
+        box-shadow: 3px 3px 38px blue;
+    }
+}
